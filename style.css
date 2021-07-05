@@ -1,3 +1,8 @@
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: dimgray;
@@ -30,7 +35,7 @@ p{
     border-radius: 25px;
 }
 
-h1 span{
+h1 span,h2 span{
     color: coral;
 }
 
@@ -67,4 +72,47 @@ h1 span{
     width: 50%;
     margin: auto;
     margin-top: 50px;
+    padding-top: 20px ;
 }
+
+.recipes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.recipe-item{
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:5px 7px 40px gray;
+}
+
+.recipe-item img{
+ width: 90%;
+ margin-top: 5%;
+ border-radius: 20px;
+}
+
+.section-4{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 15px;
+    box-shadow:5px 7px 40px gray;
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(0, 0, 2);
+    position: absolute;
+    bottom: 0;
+}
+
+
