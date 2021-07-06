@@ -20,18 +20,14 @@ h1{
     line-height: 50%;
 }
 
-p{
-    margin-bottom: 50px;
-}
-
 a{
     text-decoration: none;
     color: white;
     
 }
 
-.header-container {
-    background-color: dimgray;
+.header-section {
+    background-color:rgb(0, 0, 2);
     position: fixed;
     width: 100%;
 }
@@ -43,7 +39,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .nav-btn {
     display: inline-block;
@@ -63,14 +58,17 @@ header {
 }
 
 .anchor-btn{
-    background-image: linear-gradient(90deg,rgb(238, 149, 117),rgb(235, 61, 30));
+    background-image: linear-gradient(90deg,coral,rgb(230, 40, 6));
     padding: 15px 22px;
     border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .color-black{
     color: black;
 }
+
 
 h1 span, h2 span{
     color: coral;
@@ -78,52 +76,52 @@ h1 span, h2 span{
 
 .flexible-section{
     display: flex;
+    align-items: center;
 }
 .half-width{
     width:40%;
-    margin: 0 5% 0 5%;
+    margin: 4% 5% 5%;
 }
 
-.half-width div{
-    margin-top: 200px;
-}
+
 .image1{
     width: 100%;
 }
 
 .image2{
     width: 60%;
+    height: 100%;
     margin-left: 60px;
     margin-top: 40px;
 }
 
-.section-2{
+.about-me-section{
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .text-center{
     text-align: center;
     width: 50%;
     margin: auto;
-    margin-top: 50px;
     padding-top: 20px ;
 }
 
-.recipes{
+.recipes-section{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
 }
 
 .recipe-item{
     text-align: center;
     width: 30%;
     border-radius: 20px;
-    box-shadow:5px 7px 40px gray;
+    box-shadow:1px 1px 20px rgb(201, 198, 198);
 }
 
 .recipe-item img{
@@ -131,25 +129,55 @@ h1 span, h2 span{
  margin-top: 5%;
  border-radius: 20px;
 }
+.recipe-item p, .recipe-item h2{
+    padding: 5%;
+    text-align: left;
+}
 
-.section-4{
+.recipe-item h2{
+    font-weight: 700;
+    margin-bottom: -40px;
+}
+
+.followers-section{
     width: 90%;
     height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 250px;
     border-radius: 15px;
-    box-shadow:5px 7px 40px gray;
+    box-shadow:1px 1px 20px rgb(201, 198, 198);
+}
+
+.follow-us-section {  
+    width: 40%;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.follow-us-section a{
+    color: rgb(0, 0, 2)
+}
+
+.follow-us-section h2{
+    margin-bottom: 50px;
 }
 
 footer{
+    margin-top: -100px;
     height: 250px;
     width: 100%;
     background-color: rgb(0, 0, 2);
-    position: absolute;
+    position: relative;
     bottom: 0;
+}
+
+.footer-text{
+    color: white;
+    margin-top: 50px;
 }
 
 
